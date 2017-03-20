@@ -19,3 +19,5 @@ cp awssetup/vimrc .vimrc
 cp awssetup/git-completion.sh .
 cp awssetup/git-prompt.sh .
 
+source .bashrc
+
