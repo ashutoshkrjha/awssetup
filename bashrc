@@ -133,32 +133,3 @@ export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
 
 
 
-
-. /home/parikshit/torch/install/bin/torch-activate
-
-
-. /home/parikshit/torch/install/bin/torch-activate
-export PYTHONPATH=/home/parikshit/mxnet//python:
-
-# Provide path to anaconda packages for jedi-vim
-#export PYTHONPATH="/home/parikshit/anaconda2/lib/python2.7/site-packages"
-export PYTHONPATH="/home/parikshit/anaconda2/envs/tensorflow/lib/python2.7/site-packages"
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/parikshit/google-cloud-sdk/path.bash.inc' ]; then source '/home/parikshit/google-cloud-sdk/path.bash.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/parikshit/google-cloud-sdk/completion.bash.inc' ]; then source '/home/parikshit/google-cloud-sdk/completion.bash.inc'; fi
-
-# added by Anaconda2 4.3.0 installer
-export PATH="/home/parikshit/anaconda2/bin:$PATH"
-#export PYTHONPATH="/home/parikshit/anaconda2/envs/gps/lib/python2.7/site-packages"
-#source /opt/ros/indigo/setup.bash
-#source /opt/ros/indigo/setup.bash
-
-#For ROS
-#export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages
-#export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/home/parikshit/gps:/home/parikshit/gps/src/gps_agent_pkg
-
-#for rl-glue
-export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
