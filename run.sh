@@ -12,7 +12,7 @@ pip install .
 
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl
 sudo chmod +777 -R /usr/local/bin
-pip install --upgrade TF_PYTHON_URL
+pip install --ignore-installed --upgrade $TF_BINARY_URL
 
 cd 
 cp awssetup/bashrc .bashrc
