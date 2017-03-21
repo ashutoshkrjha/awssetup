@@ -7,7 +7,8 @@ mkdir build && cd build
 cmake -DUSE_SDL=ON -DUSE_RLGLUE=OFF -DBUILD_EXAMPLES=ON ..
 sudo chmod +777 -R /usr/local/lib
 make -j 4
-pip install .
+cd ..
+pip install . 
 
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl
 sudo chmod +777 -R /usr/local/bin
@@ -16,7 +17,7 @@ pip install --upgrade TF_PYTHON_URL
 cd 
 cp awssetup/bashrc .bashrc
 cp awssetup/vimrc .vimrc
-cp awssetup/git-completion.sh .
+cp awssetup/git-completion.bash .
 cp awssetup/git-prompt.sh .
 
 source .bashrc
